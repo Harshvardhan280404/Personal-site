@@ -1,0 +1,134 @@
+body{
+  height: 150rem;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header{
+background-color: rgb(4, 177, 196);
+display: flex;
+flex-direction: column;
+flex: 1;
+align-items: center;
+justify-content: center;
+font-size: 1.5rem;
+color: white;
+font-family: "Playwrite AU TAS", cursive;;
+}
+.background-image{
+  height: 400px;
+}
+h1{
+  font-size: 3.2rem;
+  font-weight: 400;
+}
+h2{
+  font-weight: 400;
+}
+h3{
+  font-weight: 400;
+}
+.my-pic{
+  width: 125px;
+  display: block;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: rgb(3, 178, 197);
+}
+.profile{
+  width: 300px;
+  margin-top: 0;
+}
+.hello{
+  margin-bottom: 0;
+  font-size: 25px;
+  color: rgb(3, 178, 197);
+}
+p{
+  font-size: 20px;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  font-size: auto;
+  flex: 1;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+.projects{
+  font-size: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+}
+.align{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4%;
+  font-size: 35px;
+  color: rgb(3, 178, 197);
+}
+a{
+  display: block;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(3, 178, 197);
+}
+.tile-image{
+  width: 200px;
+  margin-right: 20px;
+}
+.card{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 50px;
+  font-size: auto;
+  text-align: justify;
+  align-items: top;
+}
+.alignment{
+  margin-top: 0;
+  font-size: 25px;
+  color: rgb(3, 178, 197);
+}
+.contact{
+  font-size: auto;
+}
+.contact-info{
+  width:auto;
+  margin-left: 25%;
+  margin-right: 20%;
+}
+.contact-button{
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.7rem;
+  background-color: rgb(3, 178, 197);
+  border-radius: 11px;
+  border-style: none;
+  color: white;
+  cursor: pointer;
+}
+.contact-button-description{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  background-color: rgb(3, 178, 197);
+  display: flex;
+  flex: 1;
+  height: 18rem;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-link{
+  color: white;
+  font-size: 1.2rem;
+}
